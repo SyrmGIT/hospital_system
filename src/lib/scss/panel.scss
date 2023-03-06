@@ -1,0 +1,94 @@
+.panel-bg {
+	background-color: burlywood;
+	width: 80%;
+	margin: 0 auto;
+
+	.panel-wrapper {
+		padding: 20px 20px;
+
+		.panel-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: red;
+			padding: 20px 30px;
+			border-radius: 5px;
+		}
+
+		.panel-content-wrapper {
+			margin-top: 20px;
+			background-color: green;
+			padding: 20px 30px;
+
+			.user {
+				padding: 10px 35px;
+				background-color: #26324e;
+				display: flex;
+				align-items: center;
+				height: 80px;
+				border-radius: 5px;
+				margin-bottom: 20px;
+				border-left: 5px solid #1991ff;
+
+				.user-id {
+					width: 5%;
+				}
+
+				.user-name {
+					display: flex;
+					gap: 10px;
+					width: 50%;
+				}
+
+				.user-email {
+					width: 38%;
+				}
+
+				p {
+					color: #f3faff;
+				}
+
+				.user-manage-buttons {
+					width: 7%;
+					display: flex;
+					justify-content: space-between;
+
+					.button {
+						background-color: #2a57c0;
+						color: #f3faff;
+						border-radius: 5px;
+						padding: 10px 13px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.form-wrapper {
+	color: white;
+
+	form {
+		label {
+			margin-bottom: 4px;
+			display: block;
+		}
+
+		input,
+		select,
+		textarea {
+			color: #0f172a;
+			border: 1px solid #ddd;
+			border-radius: 2.5px;
+			padding: 10px 13px;
+			margin-bottom: 20px;
+			outline: none;
+			width: 100%;
+			resize: vertical;
+
+			&:focus {
+				border: 1px solid #2a57c0;
+			}
+		}
+	}
+}
